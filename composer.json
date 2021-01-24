@@ -1,0 +1,23 @@
+{
+    "name": "stupid-simple-php/stupid-simple-php",
+    "description": "Stupidly Simple PHP",
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcus Don",
+            "email": "marcus@sqldevelopment.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+	"autoload": {
+		"psr-4": {"StupidSimplePhp\\": "src/"}
+	}
+}
